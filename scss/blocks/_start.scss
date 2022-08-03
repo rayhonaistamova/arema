@@ -1,0 +1,64 @@
+.start__body{
+    display: flex;
+    padding-top: 140px;
+}
+.start__left{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+.start__title{
+    font-size: 36px;
+    line-height: 40px;   
+    color: #000000; 
+    width: 535px;
+    margin-bottom: 40px;  
+}
+.start__text{
+    font-size: 22px;
+    line-height: 30px;   
+    color: #000000;
+    width: 445px;
+    margin-bottom: 40px;
+}
+.form{
+    margin-left: 0;
+}
+.start__input{
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    font-size: 14px;
+    line-height: 20px; 
+    display: flex;
+    align-items: center;   
+    color: #808080;
+    padding: 15px 70px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+.start__label{
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080;
+    margin-top: 10px;
+}
+.start__label_{
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #808080; 
+}
+.start__span{
+    color: $button-color;
+}
+.start__right{
+    display: flex;
+    position: relative;
+}
+.start__description{
+    font-size: 14px;
+    line-height: 20px; 
+    color: #000000;
+    position: absolute;
+    bottom: 65px;
+    left: -120px;
+}

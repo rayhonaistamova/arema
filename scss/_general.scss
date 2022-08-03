@@ -1,0 +1,63 @@
+/*GENERAL*/
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li,
+a,
+button,
+input,
+textarea,
+select,
+option{
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    background: none;
+}
+body{
+    font-family: 'Formular', sans-serif;
+    background-color: #E5E5E5;
+    background-image: url(../img/Фон\ \(1\).jpg);
+    background-repeat: no-repeat;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+@mixin button {
+    font-family: 'Formular';
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border-radius: 50px;
+    padding: 15px 30px;
+    background-color: #1168AC;
+}
+@mixin btn {
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center;   
+    color: #000000;
+    padding: 15px 30px;
+    background-color: $btn-color;
+    border-radius: 50px;
+}
+@mixin important-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+$button-color:  #1168AC;
+$btn-color: #FCCA3A;

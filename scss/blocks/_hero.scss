@@ -1,0 +1,114 @@
+.hero__body{
+   @include important-text;
+}
+.hero__title{
+    font-size: 50px;
+    line-height: 61px;   
+    color: #FFFFFF;
+    width: 605px;
+    margin-top: 170px;
+}
+.hero__span{
+    color: 
+    #FCCA3A;
+}
+.hero__bottom{
+    @include important-text;
+    margin-top: 35px;
+}
+.hero_text{
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;   
+    color: #FFFFFF;
+    width: 280px;
+}
+.hero_text::before{
+    content: '';
+    display: block;
+    width: 125px;
+    height: 60px;
+    background-image: url('/img/Group.svg');
+    background-repeat: no-repeat;
+}
+.hero__text-two{
+    font-size: 22px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;   
+    color: #FFFFFF;
+    width: 200px; 
+}
+.hero__text-two::before{
+    content: '';
+    display: block;
+    width: 75px;
+    height: 60px;
+    background-image: url('/img/Group\ 18.svg');
+    background-repeat: no-repeat; 
+}
+.right{
+    margin-left: 125px;
+    background-color: #4D4D4D;
+    width: 370px;
+    height: 480px;
+    margin-top: 85px;
+}
+.right__title{
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 290px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.right__text{
+    font-size: 16px;
+    line-height: 22px;   
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    margin-left: 30px;
+}
+.right_btn{
+    color: #FCCA3A;
+}
+.hero__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 30px;
+}
+.hero__label{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.hero__input{
+    width: 308px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 13px;
+}
+.hero__input-input{
+    display: inline-block;
+}
+button{
+    @include btn;
+    padding: 15px 40px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+.hero__label_{
+    font-size: 14px;
+    line-height: 24px;  
+    color: #FFFFFF;
+}
+hero__input-checkbox{
+    display: flex;
+}

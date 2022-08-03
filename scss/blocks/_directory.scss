@@ -1,0 +1,49 @@
+.directory{
+    background-image: url(/img/33.jpg);
+    height: 665px;
+    background-repeat: no-repeat;
+}
+.directory__body{
+    @include important-text;
+    justify-content: center;
+    column-gap: 195px;
+}
+.directory__title{
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+.directory__text{
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 410px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.directory__link{
+    background: #FCCA3A;
+    border-radius: 50px;
+    font-size: 18px;
+    line-height: 22px;
+    align-items: center;
+    text-align: center; 
+    color: #000000;
+    padding: 15px 60px;
+}
+.directory__right{
+    display: flex;
+    position: relative;
+}
+.directory__description{
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    position: absolute;
+    width: 250px;
+    bottom: 70px;
+    left: -215px;
+}
+.directory__img{
+    padding-top: 140px;
+}

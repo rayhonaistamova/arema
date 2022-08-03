@@ -1,0 +1,51 @@
+.free{
+    padding-top: 140px
+}
+.free__body{
+    @include  important-text;
+}
+.free__title{
+    width: 400px;
+    font-size: 36px;
+    line-height: 40px;   
+    color: #000000;
+    margin-bottom: 15px;
+}
+.free__text{
+    font-size: 22px;
+    line-height: 30px;   
+    color: #000000;
+    width: 455px;
+    margin-bottom: 20px;
+}
+.free__flex{
+    @include  important-text;
+    justify-content: center;
+    margin-left: -180px;
+}
+.free__items{
+    padding: 10px;
+}
+.free__form{
+
+    margin-top: 25px;
+}
+.free__label{
+    font-size: 14px;
+    line-height: 20px;   
+    color: #808080;
+}
+.free__input{
+    border: 1px solid #C4C4C4;
+    border-radius: 8px;
+    padding: 15px 70px;
+    padding-left: 10px;
+    margin-top: 5px;
+}
+.free_btn{
+    background: $btn-color;
+    border-radius: 50px;
+}
+.free__span{
+    color: $button-color;
+}

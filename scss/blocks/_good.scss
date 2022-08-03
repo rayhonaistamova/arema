@@ -1,0 +1,34 @@
+.good__title{
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;   
+    color: #000000;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
+.good_list{
+    @include important-text;
+    flex-wrap: wrap;
+}
+.good_items{
+    margin-bottom: 80px;
+}
+.good__img{
+    margin-left: 130px;
+    margin-bottom: 25px;
+}
+.good_title{
+    font-size: 22px;
+    line-height: 30px;   
+    text-align: center;  
+    color: #000000;
+    width: 360px; 
+}
+.good_text{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;   
+    color: #000000;
+    width: 360px;
+    margin-top: 5px;
+}

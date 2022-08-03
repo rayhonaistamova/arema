@@ -1,0 +1,46 @@
+.question{
+    background-image: url(/img/66.jpg);
+    height: 955px;
+}
+.question__title{
+    font-size: 46px;
+    line-height: 56px;
+    text-align: center;   
+    color: #FFFFFF;
+    padding-top: 130px;
+    margin-bottom: 60px;
+}
+.question__items{
+    background: #4D4D4D;
+    border-radius: 8px;
+    width: 860px;
+    margin-bottom: 5px;
+    padding: 25px;
+    margin-left: 140px;
+    position: relative;
+}
+.question__text{
+    font-size: 22px;
+    line-height: 30px;    
+    color: #FFFFFF;
+}
+.question__description{
+    width: 780px;
+    font-size: 16px;
+    line-height: 22px;   
+    color: #FFFFFF;
+    margin-top: 5px;
+}
+.bx-plus-medical{
+    color: $btn-color;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+}
+.bx-x{
+    color: $btn-color;
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    font-size: 35px;
+}

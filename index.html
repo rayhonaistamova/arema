@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__body">
+                <a href="./index.html"><img src="./img/prof_remont_white.svg" alt="header-logo"></a>
+                <nav class="header_nav nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Ремонт квартир</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Ремонт ванн</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Дизайн интерьеров </a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Блог</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="nav__contact">
+                    <div>
+                        <a class="nav__tel" href="tel:+74994507786">+7 (499) 450 77 86</a>
+                        <p class="nav__contact-text">Ежедневно с 9:00 до 21:00</p>
+                    </div>
+                    <a class="nav__btn" href="tel:+74994507786">Заказать звонок</a>
+                </div>
+            </div>
+        </div>
+        <div class="header__bottom bottom">
+            <div class="bottom__container container">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Наши награды</a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Тарифы </a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Калькулятор </a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Портфолио </a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Отзывы </a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Почему мы?</a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Как мы работаем</a>
+                        </li>
+                        <li class="nav__items">
+                            <a class="nav__links" href="#">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__container container">
+                <div class="hero__body">
+                    <div class="hero__left">
+                        <h2 class="hero__title">Ремонт квартир  и помещений <span class="hero__span"> ”под ключ” от 2 170 руб/м² </span></h2>
+                        <div class="hero__bottom">
+                            <p class="hero_text">Оплата за результат или в рассрочку</p>
+                            <p class="hero__text-two">Гарантия <br> 36 месяцев</p>
+                        </div>
+
+                    </div>
+                    <div class="hero__right right">
+                        <h3 class="right__title">Хотите узнать точную стоимость ремонта?</h3>
+                        <p class="right__text">Оставьте заявку сейчас и получите <span class="right_btn">скидку 15% на все виды работ! Вы сэкономите до 150 000 рублей.</span></p>
+                        <form class="hero__form">
+                            <label class="hero__label">Ваше имя</label>
+                            <input class="hero__input" type="text" placeholder="Имя" required>
+                            <label class="hero__label">Контактный телефон</label>
+                            <input class="hero__input" type="text" placeholder="+7 (___) ___ - __ - __" required>
+                            <button>Отправить заявку</button>
+                            <div class="hero_input-checkbox">
+                                <input class="hero__input-input" type="checkbox" required>
+                                <label class="hero__label_">Согласен с <span class="hero__span">политикой конфиденциальности</span></label>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="good">
+            <div class="container">
+                <h2 class="good__title">Знаем все о хорошем ремонте</h2>
+                <ul class="good_list">
+
+                    <li class="good_items">
+                        <img class="good__img" src="./img/1.svg" alt="good__img">
+                        <h3 class="good_title">Ремонт по ценам частной бригады</h3>
+                        <p class="good_text">Наши цены на 10% ниже рынка за счет автоматизации процессов и большого 
+                        потока производства</p>
+                    </li>
+
+                    <li class="good_items">
+                        <img class="good__img" src="./img/2.svg" alt="good__img">
+                        <h3 class="good_title">Полное юридическое обеспечение ремонта</h3>
+                        <p class="good_text">Сроки, гарантии и сумма зафиксированы договором. Оплата только по факту выполненных работ. Отвечаем за сроки денежной компенсацией.</p>
+                    </li>
+
+                    <li class="good_items">
+                        <img class="good__img" src="./img/3.svg" alt="good__img">
+                        <h3 class="good_title">Оптовые программы <br> с поставщиками материалов</h3>
+                        <p class="good_text">С нами до 30% выгоднее покупать 
+                        черновые и чистовые материалы, 
+                        сантехнику, электрику, двери и окна</p>
+                    </li>
+
+                    <li class="good_items">
+                        <img class="good__img" src="./img/4.svg" alt="good__img">
+                        <h3 class="good_title">Лучший клиентский сервис Houzz 2019 по направлению дизайн интерьера</h3>
+                    </li>
+
+                    <li class="good_items">
+                        <img class="good__img" src="img/5.svg" alt="good__img">
+                        <h3 class="good_title">Лучшая строительная компания России по Версии Биржи Профессионалов Петровича</h3>
+                    </li>
+
+                    <li class="good_items">
+                        <img class="good__img" src="./img/6.svg" alt="good__img">
+                        <h3 class="good_title">ТОП-10 строительных <br> компаний Москвы <br>
+                        по версии Yell</h3>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+        <section class="rate">
+            <div class="rate__container container">
+                <h2 class="rate__title">Тарифы</h2>
+                <p class="rate__text">Минимальная сумма заказа от 50 000 руб.</p>
+                <ul class="rate__list">
+                    <li class="rate__items">Капитальный </li>
+                    <li class="rate__items">Стандартный</li>
+                    <li class="rate__items">Косметический</li>
+                    <li class="rate__items">Черновой</li>
+                </ul>
+                <div class="rate__bottom">
+                    <ul class="rate__bottom-list">
+                        <li class="rate__bottom-item">
+                            <h2 class="rate__bottom-title">от 6 120 ₽/м²</h2>
+                            <p class="rate__bottom-text">без скидки: от <del>7 200 р./м²</del> </p>
+                            <p class="rate__bottom-texts">При заказе онлайн Выгода 1 080 ₽/м² <span class="rate__bottom-span">скидка 15%</span></p>
+                            <p class="rate__bottom-texts_">Выгода <span class="rate__bottom-spans">1 080 ₽/м² </span></p>
+                            <div class="rate__btn"><a class="rate__bottom-btn" href="#">Получить смету</a></div><br>
+                            <img class="rate__bottom_img" src="./img/7.png" alt="rate__img" width="243" height="137">
+                            <div class="rate__bottom-div">
+                                <img src="./img/8.svg" alt="icon">
+                                <p>Фотосессия ремонта <span class="rate__bottom-span">бесплатно</span></p>
+                            </div>
+                        </li>
+                        
+                        <li class="rate__bottom-items">
+                            <h2 class="rate__bottom-heading">Работы, входящие в ремонт</h2>
+                            <div class="rate__bottom_div">
+                                <img src="img/9.svg" alt="arrow">
+                                <ul>
+                                    <li class="rate__bottom__item">Работы по стенам</li>
+                                    <li class="rate__bottom__item">Монтаж электрики</li>
+                                    <li class="rate__bottom__item">Монтаж сантехники</li>
+                                    <li class="rate__bottom__item"> Демонтажные работы</li>
+                                    <li class="rate__bottom__item">Работы по полам</li>
+                                    <li class="rate__bottom__item">Плиточные работы</li>
+                                    <li class="rate__bottom__item">Устройство потолков</li>
+                                    <li class="rate__bottom__item">Замена окон</li>
+                                    <li class="rate__bottom__item">Замена дверей</li>
+                                </ul>
+                            </div>
+                            
+                        </li>
+                        <li class="rate__bottom-items">
+                            <h2 class="rate__bottom-heading">Чистовые материалы</h2>
+                            <div class="rate__bottom_div_">
+                                <img src="./img/10.svg" alt="">
+                                <ul>
+                                    <li class="rate__bottom__item">Обои</li>
+                                    <li class="rate__bottom__item"> Ламинат</li>
+                                    <li class="rate__bottom__item">Настенная и напольная плитка</li>
+                                    <li class="rate__bottom_div_">Межкомнатные двери</li>
+                                </ul>
+                            </div>
+                            <h3 class="rate__bottom-extra">от 2 470 ₽/м²</h3>
+                            <p class="rate__bottom-text">без скидки: от 2 717 р./м² </p>
+                            <h2 class="rate__bottom-heading">Черновые материалы</h2>
+                            <div class="rate__bottom_div_">
+                                <img src="./img/10.svg" alt="">
+                                <ul>
+                                    <li class="rate__bottom__item">Смеси, грунтовки</li>
+                                    <li class="rate__bottom__item"> Гипсокартон, профили</li>
+                                    <li class="rate__bottom__item">Реечный и натяжной потолок</li>
+                                    <li class="rate__bottom__item">Медная проводка</li>
+                                </ul>
+                            </div>
+                            <h3 class="rate__bottom-extra">от 1 530 ₽/м²</h3>
+                            <p class="rate__bottom-text">без скидки: от 1 683 р./м² </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="calculator">
+            <div class="calculator__container container">
+                <div class="calculator__body">
+                   <div class="calculator__left">
+                    <img src="./img/11.png" alt="calculator_img" width="540" height="680">
+                    <p class="calculator__text">Руководитель отдела по работе <br> с клиентами Иванов Леонид</p>
+                   </div>
+
+                   <div class="calculator__right">
+                    <h2 class="calculator__title">Калькулятор стоимости ремонта</h2>
+                    <h3 class="calculator__description">— Привет, <br> 
+                    меня зовут Леонид</h3>
+                    <p class="calculator__texts">Давайте узнаем стоимость Вашего ремонта в компании Арема
+                    </p>
+                    <a class="calculator__btn" href="#">Отправить заявку</a>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="repair">
+            <div class="repair__container container">
+                <div class="repair__body">
+                    <div class="repair__left">
+                        <h3 class="repair__title"><span class="right_btn">Бесплатная консультация</span> <br>
+                        по вопросам ремонта</h3>
+                        <div class="repair__form">
+                            <div>
+                                <ul class="repair__list">
+                                    <li class="repair__items">
+                                        <p class="repair__text">Работаем без выходных, 
+                                        приедем тогда, когда 
+                                        удобно Вам</p>
+                                    </li>
+                                    <li class="repair__items">
+                                        <p class="repair__texts">Индивидуальная консультация 
+                                        от инженера и дизайнера 
+                                        на личной встрече</p>
+                                    </li>
+                                    <li class="repair__items">
+                                        <p class="repair__text_">Смета без скрытых платежей, считаем без ухищрений и только то, что нужно Вам</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="repair__right">
+                                <form class="hero__form">
+                                    <label class="hero__label">Ваше имя</label>
+                                    <input class="hero__input" type="text" placeholder="Имя" required>
+                                    <label class="hero__label">Контактный телефон</label>
+                                    <input class="hero__input" type="text" placeholder="+7 (___) ___ - __ - __" required>
+                                    <button>Записаться</button>
+                                    <div class="hero_input-checkbox">
+                                        <input class="hero__input-input" type="checkbox">
+                                        <label class="hero__label_">Согласен с <span class="hero__span">политикой конфиденциальности</span></label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./img/13.png" alt="repair__img" width="600" height="670">
+                </div>
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="team__container container">
+                <div class="team__body">
+                    <img src="./img/17.png" alt="team__img" width="593" height="877">
+                    <div>
+                        <h2 class="team__title">Команда</h2>
+                        <h4 class="team__name">Сергей Буйняков</h4>
+                        <p class="team__description">Лучший инженер-сметчик</p>
+                        <p class="team__text">Посчитал более 500 смет и заключил около 200 договоров. Имеет высшее инженерное образование в институте МГСУ. В работе добросовестный 
+                        и внимательный. <br> <br> <br> 
+                            
+                        До этого 3 года работал прорабом. Следит за современными тенденциями 
+                        и технологиями в ремонте и дизайне квартир. Подскажет на чем сэкономить 
+                        и составит точную смету.</p><br>
+
+                        <p class="team__text"><span class="team__span">Стаж:</span> 6 лет</p><br>
+
+                        <p class="team__text"><span class="team__span">Достижения:</span> Сократил срок проведения ремонта на своем участке на 20%</p><br>
+
+                        <p class="team__text"><span class="team__span">Награды:</span> Лучший инженер-сметчик 2019 года по версии “Компания”</p>
+                        <ul class="team__list">
+                            <li><img src="./img/18.svg" alt="team__img"></li>
+                            <li><img src="/img/19.png" alt="team__img"></li>
+                            <li><img src="/img/20.png" alt="team__img"></li>
+                            <li><img src="/img/21.png" alt="team__img"></li>
+                            <li><img src="/img/22.svg" alt="team__img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about">
+            <div class="about__container container">
+                <h2 class="about__title">О нас</h2>
+                <ul class="about__list">
+                    <li class="about__items">
+                        <p>Философия</p>
+                    </li>
+                    <li class="about__items">
+                        <p>Ценности</p>
+                    </li>
+                    <li class="about__items">
+                        <p>История</p>
+                    </li>
+                    <li class="about__items">
+                        <p>Отбор мастеров</p>
+                    </li>
+                </ul>
+                <div class="about_box">
+                    <img class="about_img" src="./img/23.png" alt="about_img">
+                   <p class="about__text">Мы ставим перед собой цель стать ведущей компанией, предоставляющей комплексные услуги Проектирования, Производства и Строительства в России. <br> <br> <br>
+
+                    Вместе мы реализуем проекты, отвечающие международным стандартам и прокладываем путь к пониманию потребностей Клиента, основываясь на фундаментальных ценностях, ведущих к достижению нашей цели. <br><br> <br> 
+                    
+                    Мы всегда уверены в своей компании и ее услугах, поэтому стремимся стать для клиентов и партнеров островом надежности в нестабильном рыночном пространстве. Мы умеем вовремя реагировать на изменения и быть гибкими, поэтому мы с уверенностью смотрим в будущее!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer">
+            <div class="customer__container container">
+                <h2 class="customer__title">Отзывы наших клиентов</h2>
+                <p class="customer__text">Для нас важно, чтобы Вы улыбались после ремонта!</p>
+                <ul class="customer__list">
+                    <li><img src="/img/18.svg" alt="customer__img"></li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=YdfDgQ96osk&t=10s"><img src="/img/25.png" alt="customer__img"></a>
+                        <p class="customer__name">Очаровательная Ольга Владимировна</p>
+                        <img class="customer_img" src="./img/26.svg" alt="customer__img">
+                        
+                    </li>
+                    <li><img src="/img/22.svg" alt="customer__img"></li>
+                </ul>
+                <ul class="customer_list">
+                    <li class="customer__items">
+                        <h3 class="customer_heading">Акция “Расскажи другу”</h3>
+                        <p class="customer__description">Предложите другу заказать <br> 
+                        ремонт в компании “Арема” и получите <br>
+                        <span class="customer__span">5000 рублей,</span> а друг получит <span class="customer__span">скидку 5%</span></p>
+                        <div class="customer_link"><a class="customer_links" href="#">Участвовать</a></div>
+                    </li>
+                    <li class="customer__items">
+                        <h3 class="customer_heading">Акция “Честно об “Ареме””</h3>
+                        <p class="customer__description">Оставьте честный отзыв о работе 
+                        нашей компании и получите <span class="customer__span">скидку 5% </span>
+                        О своем желании поучавствовать в акции 
+                        “Честно об “Ареме””необходимо сообщить инженеру-сметчику до заключения договора</p>
+                        <div class="customer_link"><a class="customer_links" href="#">Участвовать</a></div>
+                    </li>
+                    <li class="customer__items">
+                        <h3 class="customer_heading">Акция “Вот это ремонт!”</h3>
+                        <p class="customer__description">Пригласи нас сделать фотосессию 
+                        своей квартиры после ремонта <br> 
+                        и получите <span class="customer__span">2000 рублей</span></p>
+                        <div class="customer_link"><a class="customer_links" href="#">Участвовать</a></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="work">
+            <h2 class="work__extra">Хочу такой ремонт</h2>
+            <div class="work__container container">
+                <h2 class="work__title">Выполненные работы</h2>
+                <p class="work__text">Сейчас в альбоме нашей компании более 800 объектов</p>
+                <ul class="work__card card">
+                    <li class="card_items">
+                        <img class="card__img" src="/img/27.png" alt="work__img" width="380" height="270">
+                        <h3 class="card__title">Ремонт 1 комнатной квартиры 
+                        — 37 м²</h3>
+                        <p class="card__text">Видное, улица Березовая, 8</p>
+                        <span class="card__span">277 540 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                    <li class="card_items">
+                        <img class="card__img" src="/img/28.png" alt="work__img" width="380" height="270">
+                        <h3 class="card__title">Ремонт 1 комнатной квартиры 
+                        — 38 м²</h3>
+                        <p class="card__text">Москва, улица Коломенская, 18</p>
+                        <span class="card__span">296 400 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                    <li class="card_items">
+                        <img class="card__img" src="/img/29.png" alt="work__img" width="380" height="270">
+                        <h3 class="card__title">Ремонт 2-х комнатной квартиры — 45 м²</h3>
+                        <p class="card__text">Москва, улица Широкая, 35</p>
+                        <span class="card__span">305 960 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                    <li class="card_items">
+                        <img class="card__img" src="/img/30.png" alt="" width="380" height="270">
+                        <h3 class="card__title">Ремонт 3-х комнатной квартиры — 72 м²</h3>
+                        <p class="card__text">Москва, Проспект Андропова, 42к1</p>
+                        <span class="card__span">416 000 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                    <li class="card_items">
+                        <img class="card__img" src="/img/31.png" alt="work__img" width="380" height="270">
+                        <h3 class="card__title">Ремонт 1 комнатной квартиры 
+                        — 35 м²</h3>
+                        <p class="card__text">Красногорск, ул.Авангардная, 6</p>
+                        <span class="card__span">213 060 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                    <li class="card_items">
+                        <img class="card__img" src="/img/32.png" alt="work__img" width="380" height="270">
+                        <h3 class="card__title">Ремонт студии <br> — 39 м² </h3>
+                        <p class="card__text">Москва, Большой Черкасский переулок, 13/1</p>
+                        <span class="card__span">277 540 руб.</span>
+                        <div class="card__icon icon">
+                            <i class='bx bx-images'></i>
+                            <p class="icon__text">Посмотреть весь проект</p>
+                        </div>
+                    </li>
+                </ul>
+                <a class="work__link" href="#">Показать еще</a>
+            </div>
+        </section>
+
+        <section class="directory">
+            <div class="directory__container container">
+                <div class="directory__body">
+                    <div class="directory__left">
+                        <h2 class="directory__title">Письмо директору</h2>
+                        <p class="directory__text">Спорная ситуация с сотрудником? Напишите напрямую руководству.
+                        Ответ в день обращения</p>
+                        <a class="directory__link" href="#">Написать письмо</a>
+                    </div>
+                    <div class="directory__right">
+                        <p class="directory__description">Генеральный директор “Арема”, Беляков Филипп
+                        </p>
+                        <img class="directory__img" src="/img/34.png" alt="directory__img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="stage">
+            <div class="container">
+                <h2 class="stage__title">Этапы работы</h2>
+                <ul class="stage__list">
+                    <li><img src="/img/35.png" alt="stage__img"></li>
+                    <li><img src="/img/36.svg" alt="stage__img"></li>
+                    <li><img src="/img/37.svg" alt="stage__img"></li>
+                    <li><img src="/img/36.svg" alt="stage__img"></li>
+                    <li><img src="/img/38.svg" alt="stage__img"></li>
+                    <li><img src="/img/36.svg" alt="stage__img"></li>
+                    <li><img src="/img/39.svg" alt="stage__img"></li>
+                    <li><img src="/img/36.svg" alt="stage__img"></li>
+                    <li><img src="/img/40.svg" alt="stage__img"></li>
+                </ul>
+                <ol class="stage_list">
+                    <li class="stage__items">
+                        <h3>1. Заполняете заявку</h3>
+                    </li>
+                    <li class="stage__items">
+                        <h3>2. Встречаемся с Вами</h3>
+                    </li>
+                    <li class="stage__items">
+                        <h3>3. Подписываем договор</h3>
+                    </li>
+                    <li class="stage__items">
+                        <h3>4. Приступаем к работам</h3>
+                    </li>
+                    <li class="stage__items">
+                        <h3>5. Сдаем объект</h3>
+                    </li>
+                </ol>
+                <div class="stage_box box">
+                    <img class="box__img" src="/img/41.png" alt="stage__img">
+                    <div>
+                        <p class="box__text">После заполнения заявки наш менеджер созванивается с Вами назначает бесплатный выезд специалиста. Он так же консультирует Вас по всем вопросам и предоставляет необходимые материалы. <br><br>
+                        Если Вы хотите отменить или перенести встречу, пожалуйста, предупредите нас за сутки.Он так же консультирует Вас по всем вопросам и предоставляет необходимые материалы.После заполнения заявки наш менеджер созванивается с Вами назначает бесплатный выезд специалиста. </p>
+                        <div class="box__icon icon">
+                            <i class='bx bx-phone'></i>
+                            <p class="icon__text">Заполнить заявку</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="manufacturers">
+            <div class="manufacturers__container container">
+                <h2 class="manufacturers__title">Сотрудничество с производителями</h2>
+                <ul class="manufacturers__list">
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/42.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Строительные материалы, гипсокартон, штукатурка</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/43.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Паркетная доска, деревянный пол, напольные покрытия</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/44.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Двери, фурнитура</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img"src="/img/45.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Керамические изделия 
+                        и сантехническое оборудование</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/46.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Керамические изделия 
+                        и оборудование</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/47.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Строительные материалы, мебель, напольные покрытия</p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/48.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Линолеум, ламинат,<br> 
+                            паркетная доска </p>
+                    </li>
+                    <li class="manufacturers__items">
+                        <img class="manufacturers__img" src="/img/49.svg" alt="manufacturers__img">
+                        <p class="manufactures__text">Плитка, линолеум, ламинат, паркетная доска </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="renovations">
+            <div class="renovations__container container">
+                <h2  class="renovation__title">Мы делаем настоящий ремонт <br>
+                под ключ, что это значит?</h2>
+                <ul class="renovation__list">
+                    <li class="renovation__items">
+                        <img src="/img/50.png" alt="renovation__img">
+                        <h3 class="renovation__text">Двери</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/59.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/51.png" alt="renovation__img">
+                        <h3 class="renovation__text">Напольные покрытия</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/60.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/52.png" alt="renovation__img">
+                        <h3 class="renovation__text">Окна</h3>
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/53.png" alt="renovation__img">
+                        <h3 class="renovation__text">Кондиционеры</h3>
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/54.png" alt="renovation__img">
+                        <h3 class="renovation__text">Кухни</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/61.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/55.png" alt="renovation__img">
+                        <h3 class="renovation__text">Мебель</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/62.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/56.png" alt="renovation__img">
+                        <h3 class="renovation__text">Электрика</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/63.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/57.png" alt="renovation__img">
+                        <h3 class="renovation__text">Сантехника</h3>
+                        <div class="renovation__icon icon">
+                            <i class='bx bx-calculator'></i>
+                            <p class="icon__text">Рассчитать со скидкой</p>
+                        </div>
+                        <img class="renovation__img" src="/img/64.svg" alt="precent">
+                    </li>
+                    <li class="renovation__items">
+                        <img src="/img/58.png" alt="renovation__img">
+                        <h3 class="renovation__text">Черновые материалы</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="free">
+            <div class="free__container container">
+                <div class="free__body">
+                        <div class="calculator__left">
+                         <img src="./img/11.png" alt="calculator_img" width="540" height="680">
+                         <p class="calculator__text">Руководитель отдела по работе <br> с клиентами Иванов Леонид</p>
+                        </div>
+                        <div class="free__right">
+                            <h2 class="free__title">Получите подробную смету бесплатно</h2>
+                            <p class="free__text">Закажите бесплатный выезд специалиста для консультации и расчета сметы</p>
+                            <div class="free__flex">
+                                <img src="/img/65.svg" alt="free__img">
+                                <ul class="free__list">
+                                    <li class="free__items">Приедем в удобное время</li>
+                                    <li class="free__items">Проведем точные измерения</li>
+                                    <li class="free__items">Уложимся в бюджет</li>
+                                </ul>
+                            </div>
+                            <form class="free__form">
+                                <label class="free__label">Контактный телефон</label><br>
+                                <input class="free__input" type="text" placeholder="+7 (___) ___ - __ - __" required><br>
+                                <button class="free_btn">Заказать консультацию</button><br>
+                                <input class="free__input" type="checkbox">
+                                <label> Согласен с <span class="free__span">политикой конфиденциальности</span></label>
+                            </form>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="question">
+            <div class="question__container container">
+                <h2 class="question__title">Вопросы и ответы</h2>
+                <ul class="question__list">
+                    <li class="question__items">
+                        <h3 class="question__text">Какой порядок оплаты?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Стоимость в смете окончательная?</h3>
+                        <p class="question__description">Смета действительна 60 дней и в процессе ремонта не меняется. Изменения возможны в случае вашего желания произвести дополнительные работы или использовать другие материалы.</p>
+                        <i class='bx bx-x'></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Как я смогу убедиться в безопасности и качестве <br>
+                        производимых работ?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Кто будет ответственен за качество работ?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Как можно следить за ходом ремонта?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Есть ли у Вас беспроцентная рассрочка?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                    <li class="question__items">
+                        <h3 class="question__text">Могу ли я посмотреть объекты в работе?</h3>
+                        <i class='bx bx-plus-medical' ></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="start">
+            <div class="start__container container">
+                <div class="start__body">
+                    <div class="start__left">
+                        <h2 class="start__title">Ремонт, о котором Вы мечтали, начинается здесь</h2>
+                        <p class="start__text">Остались вопросы? Оставьте заявку,<br> 
+                        мы свяжемся с Вами в течении 15 минут</p>
+                        <form class="hero__form form">
+                            <label class="start__label">Ваше имя</label>
+                            <input class="start__input" type="text" placeholder="Имя" required>
+                            <label class="start__label">Контактный телефон</label>
+                            <input class="start__input" type="text" placeholder="+7 (___) ___ - __ - __" required>
+                            <button>Отправить заявку</button>
+                            <div class="hero_input-checkbox">
+                                <input class="hero__input-input" type="checkbox" required>
+                                <label class="start__label_">Согласен с <span class="start__span">политикой конфиденциальности</span></label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="start__right">
+                        <img src="/img/67.png" alt="start__img">
+                        <p class="start__description">Инженер-сметчик, Денис Фролов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="touch">
+            <div class="touch__container container">
+                <h2 class="touch__title">Мы всегда на связи</h2>
+                <div class="touch__body">
+                    <iframe class="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95837.77101486264!2d69.21591355628036!3d41.3538677183725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8cb23888afb9%3A0x31c22300affbc36a!2z0K7QvdGD0YHQsNCx0LDQtNGB0LrQuNC5INGA0LDQudC-0L0sINCi0LDRiNC60LXQvdGCLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1659460870596!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div>
+                        <h3 class="touch__text">Адрес главного офиса:</h3>
+                        <p class="touch__description">Москва, Проспект мира, дом 101с1 <br>
+                        (5 минут от метро Алексеевская) <br> Ежедневно с 9:00 до 21:00</p>
+                       <h3 class="touch__text">Контактный телефон:</h3>
+                        <a class="touch__link" href="tel:+74995214249">+7 (499) 521-42-49</a>
+                        <h3 class="touch__text">Почта:</h3>
+                        <p class="touch__description">Гарантийное обслуживание <br>
+                        <a href="email"> support@arema-group.ru</a> <br>
+                        Любые другие вопросы <br>
+                        <a href="email">info@arema-group.ru</a>
+                        <h3 class="touch__text">Наши социальные сети:</h3>
+                        </p>
+                        <ul class="touch__list">
+                            <li class="touch__items"><img src="/img/68.svg" alt="touch__img"></li>
+                            <li class="touch__items"><img src="/img/69.svg" alt="touch__img"></li>
+                            <li class="touch__items"><img src="/img/70.svg" alt="touch__img"></li>
+                            <li class="touch__items"><img src="/img/71.svg" alt="touch__img"></li>
+                            <li class="touch__items"><img src="/img/72.svg" alt="touch__img"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer__container container">
+            <h2 class="footer__title">© AREMA профессиональный ремонт квартир в Москве и МО. ИНН 7716912681 ОГРН 1187746496233</h2>
+            <p class="footer__text">Политика конфиденциальности</p>
+        </div>
+    </footer>
+</body>
+
+</html>
